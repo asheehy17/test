@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup | Golf Night</title>
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    <form action="next_page.php" method="post">
+        <div class="container">
+            <label for="username">
+                <b>
+                    Enter Username Here
+                </b>
+            </label>
+            <input type="text" placeholder=" Username " name="username" required>
+            <label for="password">
+                <b>
+                    Enter Password Here
+                </b>
+            </label>
+            <input type="password" placeholder=" Password " name="passwword" required>
+            <label>
+                <input type="checkbox" checked="checked" name="remember" required>
+            </label>
+            <button type="submit">
+                Sign in
+            </button>
+        </div>
+        <div class="container">
+            <button type="button" class="cncl">
+                Cancel
+            </button>
+            <span class="password"><a href="forgotpass.html">Forgot password?</a></span>
+        </div>
+    </form>
+    <script src="JS/signup.js"></script>
+</body>
+
+</html>
